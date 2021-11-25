@@ -14,5 +14,3 @@ RUN apt-get update && \
     pip3 install ansible-lint
     
 RUN apt-get upgrade -y
-
-ENTRYPOINT [ "/bin/bash", "-l", "-c" ]
